@@ -19,9 +19,12 @@ main {
 
 header {
   margin-top: 5em;
+  margin-bottom: 3em;
   display: grid;
-  grid-auto-rows: 34em;
-  grid-template-rows: 3em;
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  grid-gap: 3em;
+  text-align:center;
 }
 
 footer {
@@ -46,6 +49,7 @@ footer {
 }
 
 h1{
+  font-size: 1.8em;
   font-weight: 600;
 }
 
@@ -65,6 +69,7 @@ P{
 img {
   width: 100%;
   height: auto;
+  text-align:center;
 }
 
 ul, ol {
