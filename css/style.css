@@ -24,6 +24,12 @@ header {
   grid-template-rows: 3em;
 }
 
+footer {
+  margin-top: 5em;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
 #rdt {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
