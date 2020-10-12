@@ -70,6 +70,10 @@ ul, ol {
   margin:0px;
 }
 
+ul {
+  list-style-type: circle;
+}
+
 header h1,
 header h2,
 header p {
@@ -81,3 +85,13 @@ header img {
   width: 100%;
   height: auto;
 }
+
+a {
+  outline: none;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+a:link {color:#3D2396;}
+a:visited {color:#455EEF;}
+a:hover {color:#616FDD;}
