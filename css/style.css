@@ -39,7 +39,7 @@ header {
 
 #UMStudent p{
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 530;
 }
 
 h1{
@@ -50,6 +50,10 @@ h2{
   font-weight: 600;
 }
 
+h3{
+  font-size: 1.2em;
+  font-weight: 530;
+}
 P{
   font-weight: 300;
   line-height: 1.5em;
@@ -60,10 +64,9 @@ img {
   height: auto;
 }
 
-ul {
+ul, ol {
   font-weight: 300;
   line-height: 1.5em;
-  list-style-type:none;
   margin:0px;
 }
 
