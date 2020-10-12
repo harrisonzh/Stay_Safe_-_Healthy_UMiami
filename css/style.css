@@ -5,8 +5,6 @@ body {
   font-weight: 400;
   color: #303030;
   margin-bottom: 15em;
-  margin: 0 auto;
-  max-width: 50em;
 }
 
 main {
@@ -15,6 +13,8 @@ main {
   grid-template-rows: auto;
   grid-auto-rows: auto;
   grid-gap: 3em;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 header {
@@ -37,6 +37,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align:center;
+}
+
+#img120 {
+  width: 120%;
+  margin: 0 auto;
+  max-width: 70em;
 }
 
 #rdt h2{
